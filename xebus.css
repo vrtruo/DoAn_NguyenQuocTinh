@@ -1,0 +1,172 @@
+/* Reset cơ bản */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #3572d5; 
+    color: #ffffff;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f3d90; /* Màu xanh đậm */
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    font-size: 1.2rem;
+  }
+  
+  .header-right a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    font-size: 1rem;
+  }
+  
+  .header-right a:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+
+  .danhsachtuyen {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  /* Tiêu đề */
+  .TieuDe {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Thanh tìm kiếm */
+  .thanhtimkiem {
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  
+  .thanhtimkiem  input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Khu vực miền */
+  .thanhtieude {
+    margin-top: 20px;
+  }
+  
+  .thanhtieude h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  /* Danh sách chi nhánh */
+  .dstuyen-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dstuyen {
+    flex: 1 1 calc(33.333% - 20px); /* 3 chi nhánh trên mỗi hàng */
+    background-color: #1a3379;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .dstuyen h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .dstuyen p {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .dstuyen a {
+    color: #ff4d00;
+    text-decoration: none;
+  }
+  
+  .dstuyen a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  .footer {
+    background-color: #1E1B47;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.logo {
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.footer-left h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 30px;;
+    
+}
+
+.footer-right ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+}
